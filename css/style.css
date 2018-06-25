@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    padding: 20px 0;
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    background: #6AABF9;
+    padding: 10px 0;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+}
+div.lista{
+    width: 50%;
+}
+div.ingreso{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+.formulario{
+    width: 100%;
+}
+input{
+    padding: 8px 20px;
+    margin: 5px 10px;
+    border-radius: 2px;
+    border: solid 1px gainsboro;
+    
+}
+
+.btnagregar{
+    width: 100%;
+    background: #6AABF9;
+    color: white;
+}
+.btneliminar{
+    background: #F08089;
+    color: white;
+    width: 50%
+}
+.btnbuscar{
+    background: #00A752;
+    color: white;
+    width: 50%;
+}
